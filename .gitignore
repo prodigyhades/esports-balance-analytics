@@ -1,0 +1,79 @@
+# -----------------------------
+# 🐍 Python Virtual Environments
+# -----------------------------
+venv/
+.venv/
+env/
+.env/
+.env.*
+env.bak/
+venv.bak/
+
+# -----------------------------
+# ⚙️ Python Cache & Compiled Files
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+dist/
+*.egg-info/
+*.so
+
+# -----------------------------
+# 📓 Jupyter Notebook
+# -----------------------------
+.ipynb_checkpoints/
+
+# -----------------------------
+# 📁 Local Data (CRITICAL)
+# -----------------------------
+# Ignore all raw and processed data files.
+# Keep folder structure using .gitkeep files to prevent repo bloat.
+data/raw/*
+!data/raw/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+
+# -----------------------------
+# 💻 IDE & OS Specific
+# -----------------------------
+# VS Code
+.vscode/
+*.code-workspace
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# -----------------------------
+# 🧪 Testing & Coverage
+# -----------------------------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+
+# -----------------------------
+# 🔒 Local Secrets
+# -----------------------------
+*.env
+secrets.toml
+.secret
+
+# -----------------------------
+# 🧾 Logs
+# -----------------------------
+*.log
+logs/
